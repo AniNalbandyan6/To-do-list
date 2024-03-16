@@ -1,0 +1,118 @@
+body{
+    background: rgb(175,163,134);
+background: linear-gradient(90deg, rgba(175,163,134,1) 0%, rgba(236,227,206,1) 35%, rgba(255,229,169,1) 100%);}
+#all{
+    height: auto;
+    width: 500px;
+    border: 3px solid #3A4D39;
+    border-radius: 20px;
+    margin: auto;
+ }
+
+#title {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    color: #3A4D39;
+    text-shadow: 3px 3px 3px #739072;
+  }
+  
+#input{
+    height: 30px;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px #ECE3CE;
+    border-color: #3A4D39;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+#add-button{
+    height: 35px;
+    width: 100px;
+    border-radius: 20px;
+    color: #4F6F52;
+    font-size: 20px;
+    font-family: "Madimi One", sans-serif;
+    border-color: #3A4D39;
+    background-color: #fffbf2;
+}
+
+#form{
+    margin: 10px;
+}
+
+#options{
+    height: 35px;
+    width: 150px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #4F6F52;
+    font-style: italic;
+    font-family: "Madimi One", sans-serif;
+    border-color: #3A4D39;
+    background-color: #fffbf2;
+    cursor: pointer;
+}
+
+#filter-div{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    margin-top: 0;
+    margin-right: 10px;
+    color: #3A4D39;
+    font-family: "Madimi One", sans-serif;
+    font-style: normal;
+    font-size: 25px;
+}
+
+#todo-list {
+    min-width: 300px;
+    list-style: none;
+}
+
+.task {
+    margin: 10px;
+    padding-left: 10px;
+    background: white;
+    color: black;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.5s;
+    border-radius: 20px;
+}
+
+.bin-button, 
+.comp-button {
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #3A4D39;
+    font-family: "Madimi One", sans-serif;
+    border-radius: 20px;
+}
+#list{
+    list-style: none;
+    width: 450px;
+    border-radius: 20px;
+    font-family: "Madimi One", sans-serif;
+    color: #3A4D39;
+}
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.slide {
+    transform: translateX(10rem);
+    opacity: 0;
+}
